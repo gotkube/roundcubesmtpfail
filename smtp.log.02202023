@@ -1,0 +1,34 @@
+[21-Feb-2023 05:50:32]: <42d856ed> Connecting to mailserv1.mydomain.vpn:587...
+[21-Feb-2023 05:50:32]: <42d856ed> Recv: 220 mailserv1.mydomain.vpn ESMTP Postfix (SlackwareARM; My Mail Server OUT)
+[21-Feb-2023 05:50:32]: <42d856ed> Send: EHLO mail.mydomain.vpn
+[21-Feb-2023 05:50:32]: <42d856ed> Recv: 250-mailserv1.mydomain.vpn
+[21-Feb-2023 05:50:32]: <42d856ed> Recv: 250-PIPELINING
+[21-Feb-2023 05:50:32]: <42d856ed> Recv: 250-SIZE 10240000
+[21-Feb-2023 05:50:32]: <42d856ed> Recv: 250-VRFY
+[21-Feb-2023 05:50:32]: <42d856ed> Recv: 250-ETRN
+[21-Feb-2023 05:50:32]: <42d856ed> Recv: 250-STARTTLS
+[21-Feb-2023 05:50:32]: <42d856ed> Recv: 250-XFORWARD NAME ADDR PROTO HELO SOURCE PORT IDENT
+[21-Feb-2023 05:50:32]: <42d856ed> Recv: 250-ENHANCEDSTATUSCODES
+[21-Feb-2023 05:50:32]: <42d856ed> Recv: 250-8BITMIME
+[21-Feb-2023 05:50:32]: <42d856ed> Recv: 250-DSN
+[21-Feb-2023 05:50:32]: <42d856ed> Recv: 250-SMTPUTF8
+[21-Feb-2023 05:50:32]: <42d856ed> Recv: 250 CHUNKING
+[21-Feb-2023 05:50:32]: <42d856ed> Send: QUIT
+[21-Feb-2023 05:50:32]: <42d856ed> Recv: 221 2.0.0 Bye
+[21-Feb-2023 05:57:10]: <42d856ed> Connecting to mailserv1.mydomain.vpn:587...
+[21-Feb-2023 05:57:11]: <42d856ed> Recv: 220 mailserv1.mydomain.vpn ESMTP Postfix (SlackwareARM; My Mail Server OUT)
+[21-Feb-2023 05:57:11]: <42d856ed> Send: EHLO mail.mydomain.vpn
+[21-Feb-2023 05:57:11]: <42d856ed> Recv: 250-mailserv1.mydomain.vpn
+[21-Feb-2023 05:57:11]: <42d856ed> Recv: 250-PIPELINING
+[21-Feb-2023 05:57:11]: <42d856ed> Recv: 250-SIZE 10240000
+[21-Feb-2023 05:57:11]: <42d856ed> Recv: 250-VRFY
+[21-Feb-2023 05:57:11]: <42d856ed> Recv: 250-ETRN
+[21-Feb-2023 05:57:11]: <42d856ed> Recv: 250-STARTTLS
+[21-Feb-2023 05:57:11]: <42d856ed> Recv: 250-XFORWARD NAME ADDR PROTO HELO SOURCE PORT IDENT
+[21-Feb-2023 05:57:11]: <42d856ed> Recv: 250-ENHANCEDSTATUSCODES
+[21-Feb-2023 05:57:11]: <42d856ed> Recv: 250-8BITMIME
+[21-Feb-2023 05:57:11]: <42d856ed> Recv: 250-DSN
+[21-Feb-2023 05:57:11]: <42d856ed> Recv: 250-SMTPUTF8
+[21-Feb-2023 05:57:11]: <42d856ed> Recv: 250 CHUNKING
+[21-Feb-2023 05:57:11]: <42d856ed> Send: QUIT
+[21-Feb-2023 05:57:11]: <42d856ed> Recv: 221 2.0.0 Bye

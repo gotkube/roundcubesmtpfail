@@ -1,0 +1,126 @@
+Feb 20 22:56:40 mailserv1 postfix-out/postfix-script[18954]: warning: not owned by root: /var/run/postfix/spool/OUT/.
+Feb 20 22:56:40 mailserv1 postfix-out/postfix-script[18955]: warning: not owned by root: /var/run/postfix/spool/OUT/pid
+Feb 20 22:56:41 mailserv1 postfix-out/postfix-script[18965]: warning: group or other writable: /var/run/postfix-out/./auth-dovecot
+Feb 20 22:56:41 mailserv1 postfix-out/postfix-script[18973]: starting the Postfix mail system
+Feb 20 22:56:41 mailserv1 postfix-out/master[18975]: daemon started -- version 3.7.4, configuration /usr/local/etc/postfix-out
+Feb 20 22:57:10 mailserv1 postfix-out/smtpd[18998]: name_mask: ipv4
+Feb 20 22:57:10 mailserv1 postfix-out/smtpd[18998]: inet_addr_local: configured 3 IPv4 addresses
+Feb 20 22:57:10 mailserv1 postfix-out/submission/smtpd[18998]: process generation: 4 (4)
+Feb 20 22:57:10 mailserv1 postfix-out/submission/smtpd[18998]: dict_open: regexp:{{/^[^A-Z]/ Bogus}}
+Feb 20 22:57:10 mailserv1 postfix-out/submission/smtpd[18998]: match_list_match: smtpd_client_event_limit_exceptions: no match
+Feb 20 22:57:10 mailserv1 postfix-out/submission/smtpd[18998]: match_list_match: mynetworks: no match
+Feb 20 22:57:10 mailserv1 postfix-out/submission/smtpd[18998]: match_list_match: mynetworks: no match
+Feb 20 22:57:10 mailserv1 postfix-out/submission/smtpd[18998]: name_mask: host
+Feb 20 22:57:10 mailserv1 postfix-out/submission/smtpd[18998]: been_here: 127.0.0.1/32: 0
+Feb 20 22:57:10 mailserv1 postfix-out/submission/smtpd[18998]: been_here: 192.168.0.30/32: 0
+Feb 20 22:57:10 mailserv1 postfix-out/submission/smtpd[18998]: been_here: 10.8.0.31/32: 0
+Feb 20 22:57:10 mailserv1 postfix-out/submission/smtpd[18998]: mynetworks_core: 127.0.0.1/32 192.168.0.30/32 10.8.0.31/32 
+Feb 20 22:57:10 mailserv1 postfix-out/submission/smtpd[18998]: match_list_match: relay_domains: no match
+Feb 20 22:57:10 mailserv1 postfix-out/submission/smtpd[18998]: match_list_match: permit_mx_backup_networks: no match
+Feb 20 22:57:10 mailserv1 postfix-out/submission/smtpd[18998]: cfg_get_str: /usr/local/etc/postfix/virtual_mailbox_maps.cf: user = email
+Feb 20 22:57:10 mailserv1 postfix-out/submission/smtpd[18998]: cfg_get_str: /usr/local/etc/postfix/virtual_mailbox_maps.cf: password = supersecretpassword
+Feb 20 22:57:10 mailserv1 postfix-out/submission/smtpd[18998]: cfg_get_str: /usr/local/etc/postfix/virtual_mailbox_maps.cf: dbname = email
+Feb 20 22:57:10 mailserv1 postfix-out/submission/smtpd[18998]: cfg_get_str: /usr/local/etc/postfix/virtual_mailbox_maps.cf: result_format = %s
+Feb 20 22:57:10 mailserv1 postfix-out/submission/smtpd[18998]: cfg_get_int: /usr/local/etc/postfix/virtual_mailbox_maps.cf: expansion_limit = 0
+Feb 20 22:57:10 mailserv1 postfix-out/submission/smtpd[18998]: cfg_get_str: /usr/local/etc/postfix/virtual_mailbox_maps.cf: query = <NULL>
+Feb 20 22:57:10 mailserv1 postfix-out/submission/smtpd[18998]: cfg_get_str: /usr/local/etc/postfix/virtual_mailbox_maps.cf: select_function = <NULL>
+Feb 20 22:57:10 mailserv1 postfix-out/submission/smtpd[18998]: cfg_get_str: /usr/local/etc/postfix/virtual_mailbox_maps.cf: table = mailbox
+Feb 20 22:57:10 mailserv1 postfix-out/submission/smtpd[18998]: cfg_get_str: /usr/local/etc/postfix/virtual_mailbox_maps.cf: select_field = maildir
+Feb 20 22:57:10 mailserv1 postfix-out/submission/smtpd[18998]: cfg_get_str: /usr/local/etc/postfix/virtual_mailbox_maps.cf: where_field = username
+Feb 20 22:57:10 mailserv1 postfix-out/submission/smtpd[18998]: cfg_get_str: /usr/local/etc/postfix/virtual_mailbox_maps.cf: additional_conditions = 
+Feb 20 22:57:10 mailserv1 postfix-out/submission/smtpd[18998]: cfg_get_str: /usr/local/etc/postfix/virtual_mailbox_maps.cf: domain = 
+Feb 20 22:57:10 mailserv1 postfix-out/submission/smtpd[18998]: cfg_get_str: /usr/local/etc/postfix/virtual_mailbox_maps.cf: hosts = 127.0.0.1
+Feb 20 22:57:10 mailserv1 postfix-out/submission/smtpd[18998]: dict_open: pgsql:/usr/local/etc/postfix/virtual_mailbox_maps.cf
+Feb 20 22:57:10 mailserv1 postfix-out/submission/smtpd[18998]: cfg_get_str: /usr/local/etc/postfix/virtual_maps.cf: user = email
+Feb 20 22:57:10 mailserv1 postfix-out/submission/smtpd[18998]: cfg_get_str: /usr/local/etc/postfix/virtual_maps.cf: password = supersecretpassword
+Feb 20 22:57:10 mailserv1 postfix-out/submission/smtpd[18998]: cfg_get_str: /usr/local/etc/postfix/virtual_maps.cf: dbname = email
+Feb 20 22:57:10 mailserv1 postfix-out/submission/smtpd[18998]: cfg_get_str: /usr/local/etc/postfix/virtual_maps.cf: result_format = %s
+Feb 20 22:57:10 mailserv1 postfix-out/submission/smtpd[18998]: cfg_get_int: /usr/local/etc/postfix/virtual_maps.cf: expansion_limit = 0
+Feb 20 22:57:10 mailserv1 postfix-out/submission/smtpd[18998]: cfg_get_str: /usr/local/etc/postfix/virtual_maps.cf: query = <NULL>
+Feb 20 22:57:10 mailserv1 postfix-out/submission/smtpd[18998]: cfg_get_str: /usr/local/etc/postfix/virtual_maps.cf: select_function = <NULL>
+Feb 20 22:57:10 mailserv1 postfix-out/submission/smtpd[18998]: cfg_get_str: /usr/local/etc/postfix/virtual_maps.cf: table = postfix_virtual
+Feb 20 22:57:10 mailserv1 postfix-out/submission/smtpd[18998]: cfg_get_str: /usr/local/etc/postfix/virtual_maps.cf: select_field = userid
+Feb 20 22:57:10 mailserv1 postfix-out/submission/smtpd[18998]: cfg_get_str: /usr/local/etc/postfix/virtual_maps.cf: where_field = address
+Feb 20 22:57:10 mailserv1 postfix-out/submission/smtpd[18998]: cfg_get_str: /usr/local/etc/postfix/virtual_maps.cf: additional_conditions = 
+Feb 20 22:57:10 mailserv1 postfix-out/submission/smtpd[18998]: cfg_get_str: /usr/local/etc/postfix/virtual_maps.cf: domain = 
+Feb 20 22:57:10 mailserv1 postfix-out/submission/smtpd[18998]: cfg_get_str: /usr/local/etc/postfix/virtual_maps.cf: hosts = 127.0.0.1
+Feb 20 22:57:10 mailserv1 postfix-out/submission/smtpd[18998]: dict_open: pgsql:/usr/local/etc/postfix/virtual_maps.cf
+Feb 20 22:57:10 mailserv1 postfix-out/submission/smtpd[18998]: match_list_match: smtpd_access_maps: no match
+Feb 20 22:57:10 mailserv1 postfix-out/submission/smtpd[18998]: unknown_helo_hostname_tempfail_action = defer_if_permit
+Feb 20 22:57:10 mailserv1 postfix-out/submission/smtpd[18998]: unknown_address_tempfail_action = defer_if_permit
+Feb 20 22:57:10 mailserv1 postfix-out/submission/smtpd[18998]: unverified_recipient_tempfail_action = defer_if_permit
+Feb 20 22:57:10 mailserv1 postfix-out/submission/smtpd[18998]: unverified_sender_tempfail_action = defer_if_permit
+Feb 20 22:57:10 mailserv1 postfix-out/submission/smtpd[18998]: dict_open: static:rest
+Feb 20 22:57:10 mailserv1 postfix-out/submission/smtpd[18998]: name_mask: 3
+Feb 20 22:57:10 mailserv1 postfix-out/submission/smtpd[18998]: initializing the server-side TLS engine
+Feb 20 22:57:10 mailserv1 postfix-out/submission/smtpd[18998]: auto_clnt_create: transport=local endpoint=private/tlsmgr
+Feb 20 22:57:10 mailserv1 postfix-out/submission/smtpd[18998]: auto_clnt_open: connected to private/tlsmgr
+Feb 20 22:57:10 mailserv1 postfix-out/tlsmgr[18999]: open smtpd TLS cache btree:/var/run/postfix-out/smtpd_scache
+Feb 20 22:57:10 mailserv1 postfix-out/tlsmgr[18999]: open smtp TLS cache btree:/var/run/postfix-out/smtp_scache
+Feb 21 05:57:10 mailserv1 postfix-out/tlsmgr[18999]: tlsmgr_cache_run_event: start TLS smtpd session cache cleanup
+Feb 21 05:57:10 mailserv1 postfix-out/tlsmgr[18999]: tlsmgr_cache_run_event: start TLS smtp session cache cleanup
+Feb 20 22:57:10 mailserv1 postfix-out/submission/smtpd[18998]: private/tlsmgr: wanted attribute: protocol
+Feb 20 22:57:10 mailserv1 postfix-out/submission/smtpd[18998]: input attribute name: protocol
+Feb 20 22:57:10 mailserv1 postfix-out/submission/smtpd[18998]: input attribute value: tlsmgr_protocol
+Feb 20 22:57:10 mailserv1 postfix-out/submission/smtpd[18998]: private/tlsmgr: wanted attribute: (list terminator)
+Feb 20 22:57:10 mailserv1 postfix-out/submission/smtpd[18998]: input attribute name: (end)
+Feb 20 22:57:11 mailserv1 postfix-out/submission/smtpd[18998]: send attr request = seed
+Feb 20 22:57:11 mailserv1 postfix-out/submission/smtpd[18998]: send attr size = 32
+Feb 20 22:57:11 mailserv1 postfix-out/submission/smtpd[18998]: private/tlsmgr: wanted attribute: status
+Feb 20 22:57:11 mailserv1 postfix-out/submission/smtpd[18998]: input attribute name: status
+Feb 20 22:57:11 mailserv1 postfix-out/submission/smtpd[18998]: input attribute value: 0
+Feb 20 22:57:11 mailserv1 postfix-out/submission/smtpd[18998]: private/tlsmgr: wanted attribute: seed
+Feb 20 22:57:11 mailserv1 postfix-out/submission/smtpd[18998]: input attribute name: seed
+Feb 20 22:57:11 mailserv1 postfix-out/submission/smtpd[18998]: input attribute value: MD9kHCMo8VB68StRe6eizyf5aLuc76DRNLNSz1dnRww=
+Feb 20 22:57:11 mailserv1 postfix-out/submission/smtpd[18998]: private/tlsmgr: wanted attribute: (list terminator)
+Feb 20 22:57:11 mailserv1 postfix-out/submission/smtpd[18998]: input attribute name: (end)
+Feb 20 22:57:11 mailserv1 postfix-out/submission/smtpd[18998]: send attr request = policy
+Feb 20 22:57:11 mailserv1 postfix-out/submission/smtpd[18998]: send attr cache_type = smtpd
+Feb 20 22:57:11 mailserv1 postfix-out/submission/smtpd[18998]: private/tlsmgr: wanted attribute: status
+Feb 20 22:57:11 mailserv1 postfix-out/submission/smtpd[18998]: input attribute name: status
+Feb 20 22:57:11 mailserv1 postfix-out/submission/smtpd[18998]: input attribute value: 0
+Feb 20 22:57:11 mailserv1 postfix-out/submission/smtpd[18998]: private/tlsmgr: wanted attribute: cachable
+Feb 20 22:57:11 mailserv1 postfix-out/submission/smtpd[18998]: input attribute name: cachable
+Feb 20 22:57:11 mailserv1 postfix-out/submission/smtpd[18998]: input attribute value: 1
+Feb 20 22:57:11 mailserv1 postfix-out/submission/smtpd[18998]: private/tlsmgr: wanted attribute: timeout
+Feb 20 22:57:11 mailserv1 postfix-out/submission/smtpd[18998]: input attribute name: timeout
+Feb 20 22:57:11 mailserv1 postfix-out/submission/smtpd[18998]: input attribute value: 3600
+Feb 20 22:57:11 mailserv1 postfix-out/submission/smtpd[18998]: private/tlsmgr: wanted attribute: (list terminator)
+Feb 20 22:57:11 mailserv1 postfix-out/submission/smtpd[18998]: input attribute name: (end)
+Feb 20 22:57:11 mailserv1 postfix-out/submission/smtpd[18998]: match_list_match: fast_flush_domains: no match
+Feb 21 05:57:11 mailserv1 postfix-out/submission/smtpd[18998]: connection established
+Feb 21 05:57:11 mailserv1 postfix-out/submission/smtpd[18998]: master_notify: status 0
+Feb 21 05:57:11 mailserv1 postfix-out/submission/smtpd[18998]: name_mask: resource
+Feb 21 05:57:11 mailserv1 postfix-out/submission/smtpd[18998]: name_mask: software
+Feb 21 05:57:11 mailserv1 postfix-out/submission/smtpd[18998]: connect from unknown[10.8.0.31]
+Feb 21 05:57:11 mailserv1 postfix-out/submission/smtpd[18998]: match_list_match: unknown: no match
+Feb 21 05:57:11 mailserv1 postfix-out/submission/smtpd[18998]: match_list_match: 10.8.0.31: no match
+Feb 21 05:57:11 mailserv1 postfix-out/submission/smtpd[18998]: match_hostname: smtpd_authorized_xforward_hosts: unknown ~? 127.0.0.0/8
+Feb 21 05:57:11 mailserv1 postfix-out/submission/smtpd[18998]: match_hostaddr: smtpd_authorized_xforward_hosts: 10.8.0.31 ~? 127.0.0.0/8
+Feb 21 05:57:11 mailserv1 postfix-out/submission/smtpd[18998]: match_hostname: smtpd_authorized_xforward_hosts: unknown ~? 10.8.0.0/16
+Feb 21 05:57:11 mailserv1 postfix-out/submission/smtpd[18998]: match_hostaddr: smtpd_authorized_xforward_hosts: 10.8.0.31 ~? 10.8.0.0/16
+Feb 21 05:57:11 mailserv1 postfix-out/submission/smtpd[18998]: smtp_stream_setup: maxtime=1200 enable_deadline=0 min_data_rate=0
+Feb 21 05:57:11 mailserv1 postfix-out/submission/smtpd[18998]: > unknown[10.8.0.31]: 220 mailserv1.mydomain.vpn ESMTP Postfix (SlackwareARM; My Mail Server OUT)
+Feb 21 05:57:11 mailserv1 postfix-out/submission/smtpd[18998]: smtp_stream_setup: maxtime=1200 enable_deadline=0 min_data_rate=0
+Feb 21 05:57:11 mailserv1 postfix-out/submission/smtpd[18998]: < unknown[10.8.0.31]: EHLO mail.mydomain.vpn
+Feb 21 05:57:11 mailserv1 postfix-out/submission/smtpd[18998]: match_list_match: unknown: no match
+Feb 21 05:57:11 mailserv1 postfix-out/submission/smtpd[18998]: match_list_match: 10.8.0.31: no match
+Feb 21 05:57:11 mailserv1 postfix-out/submission/smtpd[18998]: > unknown[10.8.0.31]: 250-mailserv1.mydomain.vpn
+Feb 21 05:57:11 mailserv1 postfix-out/submission/smtpd[18998]: > unknown[10.8.0.31]: 250-PIPELINING
+Feb 21 05:57:11 mailserv1 postfix-out/submission/smtpd[18998]: > unknown[10.8.0.31]: 250-SIZE 10240000
+Feb 21 05:57:11 mailserv1 postfix-out/submission/smtpd[18998]: > unknown[10.8.0.31]: 250-VRFY
+Feb 21 05:57:11 mailserv1 postfix-out/submission/smtpd[18998]: > unknown[10.8.0.31]: 250-ETRN
+Feb 21 05:57:11 mailserv1 postfix-out/submission/smtpd[18998]: > unknown[10.8.0.31]: 250-STARTTLS
+Feb 21 05:57:11 mailserv1 postfix-out/submission/smtpd[18998]: > unknown[10.8.0.31]: 250-XFORWARD NAME ADDR PROTO HELO SOURCE PORT IDENT
+Feb 21 05:57:11 mailserv1 postfix-out/submission/smtpd[18998]: > unknown[10.8.0.31]: 250-ENHANCEDSTATUSCODES
+Feb 21 05:57:11 mailserv1 postfix-out/submission/smtpd[18998]: > unknown[10.8.0.31]: 250-8BITMIME
+Feb 21 05:57:11 mailserv1 postfix-out/submission/smtpd[18998]: > unknown[10.8.0.31]: 250-DSN
+Feb 21 05:57:11 mailserv1 postfix-out/submission/smtpd[18998]: > unknown[10.8.0.31]: 250-SMTPUTF8
+Feb 21 05:57:11 mailserv1 postfix-out/submission/smtpd[18998]: > unknown[10.8.0.31]: 250 CHUNKING
+Feb 21 05:57:11 mailserv1 postfix-out/submission/smtpd[18998]: smtp_stream_setup: maxtime=1200 enable_deadline=0 min_data_rate=0
+Feb 21 05:57:11 mailserv1 postfix-out/submission/smtpd[18998]: < unknown[10.8.0.31]: QUIT
+Feb 21 05:57:11 mailserv1 postfix-out/submission/smtpd[18998]: > unknown[10.8.0.31]: 221 2.0.0 Bye
+Feb 21 05:57:11 mailserv1 postfix-out/submission/smtpd[18998]: disconnect from unknown[10.8.0.31] ehlo=1 quit=1 commands=2
+Feb 21 05:57:11 mailserv1 postfix-out/submission/smtpd[18998]: master_notify: status 1
+Feb 21 05:57:11 mailserv1 postfix-out/submission/smtpd[18998]: connection closed
+Feb 21 05:57:16 mailserv1 postfix-out/submission/smtpd[18998]: auto_clnt_close: disconnect private/tlsmgr stream

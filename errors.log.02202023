@@ -1,0 +1,28 @@
+[21-Feb-2023 05:50:32 UTC] PHP Deprecated:  Creation of dynamic property PEAR_Error::$callback is deprecated in /data/live/www/mail.mydomain.vpn/roundcubemail-1.6.1/vendor/pear/pear-core-minimal/src/PEAR.php on line 905
+[21-Feb-2023 05:50:32]: <42d856ed> PHP Error: SMTP server does not support authentication (POST /?_task=mail&_unlock=loading1676958631299&_framed=1&_lang=en&_action=send)
+[21-Feb-2023 05:50:32]: <42d856ed> SMTP Error: Authentication failure: mailserv1.mydomain.vpn
+PIPELINING
+SIZE 10240000
+VRFY
+ETRN
+STARTTLS
+XFORWARD NAME ADDR PROTO HELO SOURCE PORT IDENT
+ENHANCEDSTATUSCODES
+8BITMIME
+DSN
+SMTPUTF8
+CHUNKING (Code: 250) in /data/live/www/mail.mydomain.vpn/roundcubemail-1.6.1/program/lib/Roundcube/rcube.php on line 1794 (POST /?_task=mail&_unlock=loading1676958631299&_framed=1&_lang=en&_action=send)
+[21-Feb-2023 05:57:11 UTC] PHP Deprecated:  Creation of dynamic property PEAR_Error::$callback is deprecated in /data/live/www/mail.mydomain.vpn/roundcubemail-1.6.1/vendor/pear/pear-core-minimal/src/PEAR.php on line 905
+[21-Feb-2023 05:57:11]: <42d856ed> PHP Error: SMTP server does not support authentication (POST /?_task=mail&_unlock=loading1676959030065&_framed=1&_lang=en&_action=send)
+[21-Feb-2023 05:57:11]: <42d856ed> SMTP Error: Authentication failure: mailserv1.mydomain.vpn
+PIPELINING
+SIZE 10240000
+VRFY
+ETRN
+STARTTLS
+XFORWARD NAME ADDR PROTO HELO SOURCE PORT IDENT
+ENHANCEDSTATUSCODES
+8BITMIME
+DSN
+SMTPUTF8
+CHUNKING (Code: 250) in /data/live/www/mail.mydomain.vpn/roundcubemail-1.6.1/program/lib/Roundcube/rcube.php on line 1794 (POST /?_task=mail&_unlock=loading1676959030065&_framed=1&_lang=en&_action=send)
