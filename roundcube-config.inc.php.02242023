@@ -1,0 +1,57 @@
+<?php
+
+$config['db_dsnw'] = 'pgsql://webmail:supersecretpassword@localhost/webmail';
+
+$config['imap_host'] = 'mailserv1.mydomain.vpn:143';
+
+$config['imap_conn_options'] = array(
+    'ssl' => array(
+        'allow_self_signed' => true,
+        'verify_peer' => false,
+        'verify_peer_name' => false,
+        'verify_depth' => 3,
+        'peer_name' => 'mailserv1.mydomain.vpn',
+        'cafile' => '/usr/local/etc/ssl/current/ca.crt',
+        'local_cert' => '/usr/local/etc/ssl/current/mailserv1.mydomain.vpn.crt',
+   ),
+);
+
+$config['smtp_host'] = 'tls://mailserv1.mydomain.vpn:587';
+
+$config['smtp_conn_options'] = array(
+    'ssl' => array(
+        'allow_self_signed' => true,
+        'verify_peer' => false,
+        'verify_peer_name' => false,
+        'verify_depth' => 3,
+        'peer_name' => 'mailserv1.mydomain.vpn',
+        'cafile' => '/usr/local/etc/ssl/current/ca.crt',
+        'local_cert' => '/usr/local/etc/ssl/current/mailserv1.mydomain.vpn.pem',
+   ),
+);
+
+
+$config['support_url'] = '';
+
+$config['auto_create_user'] = false;
+
+$config['log_dir'] = '/data/live/www/mail.mydomain.vpn/roundcube/logs/';
+$config['temp_dir'] = '/data/live/www/mail.mydomain.vpn/roundcube/temp/';
+
+$config['des_key'] = 'supersecretdeskey';
+
+$config['product_name'] = 'Roundcube Webmail';
+
+$config['plugins'] = ['additional_message_headers', 'attachment_reminder', 'debug_logger', 'emoticons', 'enigma', 'filesystem_attachments', 'http_authentication', 'identity_select', 'jqueryui', 'managesieve', 'markasjunk', 'newmail_notifier', 'reconnect', 'show_additional_headers', 'userinfo', 'vcard_attachments', 'virtuser_file', 'virtuser_query', 'zipdownload'];
+
+$config['language'] = 'en_CA';
+
+$config['enable_spellcheck'] = true;
+
+$config['spellcheck_engine'] = 'atd';
+
+$config['draft_autosave'] = 60;
+
+$config['mime_param_folding'] = 0;
+
+$config['mime_types'] = '/usr/local/etc/nginx/mime.types';

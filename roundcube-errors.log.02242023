@@ -1,0 +1,28 @@
+tls://mailserv1.mydomain.vpn:587
+
+[25-Feb-2023 04:10:31 UTC] PHP Deprecated:  Creation of dynamic property reconnect::$imap_max_attempts is deprecated in /data/live/www/mail.mydomain.vpn/roundcubemail-1.6.1/plugins/reconnect/reconnect.php on line 19
+[25-Feb-2023 04:10:31 UTC] PHP Deprecated:  Creation of dynamic property PEAR_Error::$callback is deprecated in /data/live/www/mail.mydomain.vpn/roundcubemail-1.6.1/vendor/pear/pear-core-minimal/src/PEAR.php on line 905
+[25-Feb-2023 04:10:31 +0000]: <hvfgm4u4> PHP Error: STARTTLS failed (POST /?_task=mail&_unlock=loading1677298230581&_framed=1&_lang=en&_action=send)
+[25-Feb-2023 04:10:31 UTC] PHP Deprecated:  Creation of dynamic property PEAR_Error::$callback is deprecated in /data/live/www/mail.mydomain.vpn/roundcubemail-1.6.1/vendor/pear/pear-core-minimal/src/PEAR.php on line 905
+[25-Feb-2023 04:10:31 +0000]: <hvfgm4u4> PHP Error: Invalid response code received from server (POST /?_task=mail&_unlock=loading1677298230581&_framed=1&_lang=en&_action=send)
+[25-Feb-2023 04:10:31 +0000]: <hvfgm4u4> SMTP Error: STARTTLS failed: 2.0.0 Ready to start TLS (Code: 220) in /data/live/www/mail.mydomain.vpn/roundcubemail-1.6.1/program/lib/Roundcube/rcube.php on line 1794 (POST /?_task=mail&_unlock=loading1677298230581&_framed=1&_lang=en&_action=send)
+
+
+mailserv1.mydomain.vpn:587
+
+[25-Feb-2023 04:13:43 UTC] PHP Deprecated:  Creation of dynamic property reconnect::$imap_max_attempts is deprecated in /data/live/www/mail.mydomain.vpn/roundcubemail-1.6.1/plugins/reconnect/reconnect.php on line 19
+[25-Feb-2023 04:13:44 UTC] PHP Deprecated:  Creation of dynamic property PEAR_Error::$callback is deprecated in /data/live/www/mail.mydomain.vpn/roundcubemail-1.6.1/vendor/pear/pear-core-minimal/src/PEAR.php on line 905
+[25-Feb-2023 04:13:44 +0000]: <hvfgm4u4> PHP Error: SMTP server does not support authentication (POST /?_task=mail&_unlock=loading1677298423182&_framed=1&_lang=en&_action=send)
+[25-Feb-2023 04:13:44 +0000]: <hvfgm4u4> SMTP Error: Authentication failure: mailserv1.mydomain.vpn
+PIPELINING
+SIZE 10240000
+VRFY
+ETRN
+STARTTLS
+XFORWARD NAME ADDR PROTO HELO SOURCE PORT IDENT
+ENHANCEDSTATUSCODES
+8BITMIME
+DSN
+SMTPUTF8
+CHUNKING (Code: 250) in /data/live/www/mail.mydomain.vpn/roundcubemail-1.6.1/program/lib/Roundcube/rcube.php on line 1794 (POST /?_task=mail&_unlock=loading1677298423182&_framed=1&_lang=en&_action=send)
+[25-Feb-2023 04:13:51 UTC] PHP Deprecated:  Creation of dynamic property reconnect::$imap_max_attempts is deprecated in /data/live/www/mail.mydomain.vpn/roundcubemail-1.6.1/plugins/reconnect/reconnect.php on line 19
